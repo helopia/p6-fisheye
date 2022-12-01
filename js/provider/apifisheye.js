@@ -2,9 +2,9 @@
 /* ============= */
 
 // recupere le data du fichier json (PHOTOGRAPHERS & MEDIAS)
-export default class ApiFishEye {
+export default class Apifisheye {
   async getDataFishEye () {
-    const url = 'Api/FishEye/photographers.json';
+    const url = 'api/FishEye/photographers.json';
     const response = await fetch(url);
     const data = await response.json();
 
